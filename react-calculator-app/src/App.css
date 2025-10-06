@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.calculator-container {
+  background-color: whitesmoke;
+  border: 1px solid gray;
+  padding: 15px;
+}
+
+h2 {
+  color: black;
+}
+
+.display {
+  background-color: #eee;
+  color: black;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 8px;
+}
+
+button {
+  background-color: lightblue;
+  color: black;
+}
